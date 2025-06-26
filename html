@@ -1,1 +1,37 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Secret Santa 2025</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>✨ Secret Santa 2025 ✨</h1>
+        <p>Select your name to reveal who you're gifting!</p>
+        <select id="nameSelect">
+            <option value="">-- Choose Your Name --</option>
+            <option value="Derrick">Derrick</option>
+            <option value="Sylvia">Sylvia</option>
+            <option value="Dianah">Dianah</option>
+            <option value="Daniel">Daniel</option>
+            <option value="Racheal">Racheal</option>
+            <option value="Ritah">Ritah</option>
+            <option value="Rebecca">Rebecca</option>
+            <option value="Alex">Alex</option>
+            <option value="Vally">Vally</option>
+            <option value="Mom">Mom</option>
+            <option value="Dad">Dad</option>
+            <option value="Valerie">Valerie</option>
+            <option value="Malaika">Malaika</option>
+            <option value="Jathniel">Jathniel</option>
+            <option value="Jemima">Jemima</option>
+        </select>
+        <button onclick="revealGiftee()">Reveal My Giftee</button>
+        <div id="result" class="reveal-text"></div>
+    </div>
+    <footer>Crafted with ✨ by KidKed, 2025</footer>
+    <audio id="chime" src="assets/chime.mp3" preload="auto"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
