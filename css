@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to bottom, #0b1a2a, #1e3c58);
+    color: #fff;
+    text-align: center;
+    min-height: 100vh;
+    background-image: url('https://images.unsplash.com/photo-1608889173600-e79fdd65ef9b');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.container {
+    margin-top: 10vh;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 15px;
+    display: inline-block;
+}
+select, button {
+    margin: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.reveal-text {
+    margin-top: 20px;
+    font-size: 24px;
+    animation: shimmer 2s infinite;
+}
+@keyframes shimmer {
+    0% { color: #f0e; }
+    50% { color: #ff0; }
+    100% { color: #f0e; }
+}
+footer {
+    margin-top: 30px;
+    color: #ddd;
+}
